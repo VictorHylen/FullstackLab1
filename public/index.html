@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="table.css" rel="stylesheet">
+    <title>User managament</title>
+    <style>
+        table, th, td {
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to user managament.</h1>
+    <p id="error" style="color: rgb(148, 25, 25);"></p>
+    <fieldset>
+        <legend>Sign-In</legend>
+    <form id="sign-up-form">
+        <span>tag</span>
+        <input type="gender" id="sign-up-tag">
+        <span>Name</span>
+        <input type="text" id="sign-up-name">
+        <span>gender</span>
+        <input type="gender" id="sign-up-gender">
+        <button type="submit">Sign up</button>
+    </form>
+    </fieldset><br>
+    <table id="table"  contenteditable="true" class = "Table"></table>
+
+
+    
+
+    <div id="Decoded"></div>
+
+
+        
+    <script src="index.js"></script>
+
+
+</body>
+</html>
